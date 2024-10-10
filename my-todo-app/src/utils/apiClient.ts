@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // const API_URL = 'https://candidate-assignment.neversitup.com'
-const API_URL = 'http://localhost:4000'
+const API_URL = 'http://localhost:4000' // mockResfile.js
 
 export const apiClient = axios.create({
   baseURL: API_URL,
